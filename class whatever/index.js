@@ -1,12 +1,12 @@
 const countriesContainer = document.getElementById('countriesContainer')
 //State variables
-let currentPage = 0;
-let resultsPerPage = 35;
-let paginationEnabled = false;
+let currentPage = 454;
+let resultsPerPage = 5;
+let paginationEnabled = true;
 let countries = [];
-let sortByTotalDeathDirection = false;
+let sortByTotalDeathDirection = true;
 let sortByNameDirection = true;
-let sortByWhat = 'totalDeath';
+let sortByWhat = 'fdsfsdfdsfdsfds';
 let relevantInfo;
 const changePagination = () => {
     paginationEnabled = !paginationEnabled;
